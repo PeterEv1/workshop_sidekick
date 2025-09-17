@@ -10,6 +10,12 @@ import boto3
 import traceback
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
+#!/usr/bin/env python3
+"""
+Debug Workshop Sidekick Server - Better error handling and logging
+Updated: Force redeploy
+"""
+
 # Enhanced logging
 logging.basicConfig(
     level=logging.INFO,
